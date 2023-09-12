@@ -1,6 +1,6 @@
 # ConBoTNet
 This repository contains the codes for the paper: Supervised contrastive deep learning with bottleneck transformer improves MHC-II peptide binding affinity prediction
-
+![avatar](./figure/Figure-1.png)
 ## Requirements
 * python==3.9.16
 * pytorch==1.12.1
