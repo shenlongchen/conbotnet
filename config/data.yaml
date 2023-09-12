@@ -1,0 +1,10 @@
+mhc_seq: data/pseudosequence.2016.all.X.dat
+train: data/data.txt
+pretrain: data/data_pretrain.txt
+#test: data/test_binary_2023.txt
+test: data/test_ic50_2023.txt
+cv_id: data/cv_id.txt
+binding: data/binding.txt
+seq2logo: data/seq2logo.txt
+results: results
+results_logos: results/logos

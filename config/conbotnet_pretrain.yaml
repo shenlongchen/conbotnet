@@ -1,0 +1,34 @@
+name: conbotnet
+path: models/pre_models
+
+model:
+  emb_size: 16
+  conv_size: [ 9 ]
+  conv_num: [ 64 ]
+  conv_off: [ 3 ]
+  dropout: 0.25
+  peptide_pad: 3
+
+padding:
+  peptide_len: 24
+  peptide_pad: 3
+  mhc_len: 34
+
+binding:
+  peptide_len: 24
+  peptide_pad: 3
+  mhc_len: 34
+
+train:
+  batch_size: 512
+  num_epochs: 30
+  opt_params:
+    optimizer_cls: Adam
+    lr: 0.01
+    weight_decay: 1e-4
+
+valid:
+  batch_size: 128
+
+test:
+  batch_size: 128
