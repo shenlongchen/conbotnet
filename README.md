@@ -35,7 +35,7 @@ python -u conbotnet_fine_tuning.py -d config/data.yaml --mode seq2logo
 ```
 
 ## Citation
-Long-Chen Shen, Yan Liu, Zi Liu, Yumeng Zhang, Zhikang Wang, Yuming Guo, Jiangning Song, and Dong-Jun Yu. *Supervised contrastive deep learning with bottleneck transformer improves MHC-II peptide binding affinity prediction*.
+Long-Chen Shen, Yan Liu, Zi Liu, Yumeng Zhang, Zhikang Wang, Yuming Guo, Jamie Rossjohn, Jiangning Song, and Dong-Jun Yu. *Supervised contrastive deep learning with bottleneck transformer improves MHC-II peptide binding affinity prediction*.
 
 ## Declaration
 It is free for non-commercial use. For commercial use, please contact Long-Chen Shen (shenlc1995@njust.edu.cn).
