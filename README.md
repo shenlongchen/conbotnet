@@ -35,7 +35,16 @@ python -u conbotnet_fine_tuning.py -d config/data.yaml --mode seq2logo
 ```
 
 ## Citation
-Long-Chen Shen, Yan Liu, Zi Liu, Yumeng Zhang, Zhikang Wang, Yuming Guo, Jamie Rossjohn, Jiangning Song, and Dong-Jun Yu. *Supervised contrastive learning enhances MHC-II peptide binding affinity prediction*.
+```tex
+@article{shen2025supervised,
+  title={Supervised contrastive learning enhances MHC-II peptide binding affinity prediction},
+  author={Shen, Long-Chen and Liu, Yan and Liu, Zi and Zhang, Yumeng and Wang, Zhikang and Guo, Yuming and Rossjohn, Jamie and Song, Jiangning and Yu, Dong-Jun},
+  journal={Expert Systems with Applications},
+  pages={126463},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 ## Declaration
 It is free for non-commercial use. For commercial use, please contact Long-Chen Shen (shenlc1995@njust.edu.cn).
